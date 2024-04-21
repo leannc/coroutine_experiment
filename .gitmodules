@@ -1,0 +1,3 @@
+[submodule "vendor/concurrencpp"]
+	path = vendor/concurrencpp
+	url = git@github.com:David-Haim/concurrencpp.git
