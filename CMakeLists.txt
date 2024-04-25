@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD 20)
 add_subdirectory(vendor/concurrencpp)
 
 add_executable(${PROJECT_NAME} src/concurrencpp_main.cpp
-        src/main.cpp)
+        src/main.cpp
+        src/basic_coroutine.cpp
+        src/UseCases.h)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
          vendor/concurrencpp/include)
